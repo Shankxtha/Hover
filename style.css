@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-size: 100px;
+    text-shadow: 
+    0 0 10px cyan,
+    0 0 20px cyan,
+    0 0 30px cyan,
+    0 0 40px cyan;
+    color: white;
+}
+
+.image:hover> :not(:hover){
+    filter: blur(3px);
+    opacity: 0.5;
+}
+
+.image p{
+    opacity: 0;
+}
+
+.i1:hover{
+    scale: 1.1;
+     p{
+        opacity:1 ;
+    }
+}
+.i2:hover{
+    scale: 1.1;
+    p{
+       opacity:1 ;
+   }
+}
+
+.image{
+    display: flex;
+    gap: 30px;
+}
+
+img{
+
+    height: 400px;
+    width: 400px;
+}
+
+.i1,.i2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figcaption{
+    font-size: 50px;
+}
+
